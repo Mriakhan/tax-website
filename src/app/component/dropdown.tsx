@@ -14,12 +14,14 @@ function DropdownMenu({ tittle }: props) {
 
     return (
         <>
-            <div className='flex group'>
-                <p className='text-[18px] group-hover:!text-[#ffc00e]'>
-                    {tittle}
-                </p>
-                <div className="relative inline-block  text-left ">
-                    <div>
+            <div className='flex group items-center'>
+
+
+                <div className="relative   text-left ">
+                    <div className="flex items-center">
+                        <p className='text-[14px] xl:text-[18px] group-hover:!text-[#ffc00e]'>
+                            {tittle}
+                        </p>
                         <button
                             onClick={toggleMenu}
                         // className="   flex items-center hover:!text-[#36D994] !text-[#FFC00E]"
@@ -29,7 +31,7 @@ function DropdownMenu({ tittle }: props) {
                         >
 
                             <svg
-                                className="-mr-1 h-8 w-7 text-black group-hover:!text-[#ffc00e]"
+                                className="-mr-1 h-5 w-7 pt-1  text-black group-hover:!text-[#ffc00e]"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
                                 aria-hidden="true"
