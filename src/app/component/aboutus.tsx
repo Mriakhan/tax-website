@@ -11,6 +11,7 @@ export default function Aboutus() {
             </div>
             <Image src={about} alt='' />
         </div>
+        
 
     )
 }
