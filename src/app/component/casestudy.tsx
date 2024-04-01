@@ -7,7 +7,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 export default function Casestudy() {
     return (
-        <div>
+        <div className='relative ' >
             <div className='flex justify-center w-[100%] items-center mt-36'>
                 <div className='flex flex-col  '>
                     <h1 className='text-[18px] text-[#FFC703] font-bold'>Case Study</h1>
@@ -18,9 +18,9 @@ export default function Casestudy() {
                     <button className='bg-[#ffc00e] w-56 md:w-36 h-16 mt-11 font-bold '>View All Cases</button>
                 </div>
             </div>
-            <div className=' mt-16 grid grid-cols-3'>
+            <div className='h-[400px] mt-16 grid grid-cols-3'>
                 <div className=''>
-                    <div className=''>
+                    <div className='relative'>
                         <Image src={taximage} className='' style={{ width: "", height: "350px", position: "absolute", objectFit: "cover" }} alt='' />
                     </div>
 
@@ -30,7 +30,7 @@ export default function Casestudy() {
                     </div>
                 </div>
                 <div className=''>
-                    <div className=''>
+                    <div className='relative'>
                         <Image src={tax2} className='' style={{ width: "", height: "350px", position: "absolute", objectFit: "cover" }} alt='' />
                     </div>
 
@@ -40,7 +40,7 @@ export default function Casestudy() {
                     </div>
                 </div>
                 <div className=''>
-                    <div className=''>
+                    <div className='relative'>
                         <Image src={tax3} className='' style={{ width: "634px", height: "350px", position: "absolute", objectFit: "cover" }} alt='' />
                     </div>
 

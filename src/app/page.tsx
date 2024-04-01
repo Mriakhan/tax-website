@@ -9,6 +9,8 @@ import Casestudy from "./component/casestudy";
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react";
+import Wework from "./component/wework";
+
 
 export default function Home() {
   useEffect(() => {
@@ -27,6 +29,8 @@ export default function Home() {
       <Aboutus />
       <Ourservices />
       <Casestudy />
+      < Wework />
+
     </>
   );
 }
