@@ -19,7 +19,7 @@ export default function Header() {
                 <DropdownMenu tittle={"Pages"} />
             </div>
             <div>
-                <button className='bg-[#ffc00e] w-36 h-16 items-center justify-center !hidden lg:!flex '>Contact Us</button>
+                <button className='bg-[#ffc00e] w-36 h-16 items-center justify-center !hidden lg:!flex font-semibold'>Contact Us</button>
             </div>
             <button className='bg-[black] w-10 h-10 !flex lg:!hidden'>
                 < DensityMediumOutlinedIcon sx={{ color: "#ffc00e", marginLeft: "9px", marginTop: "8px" }} />

@@ -10,6 +10,8 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react";
 import Wework from "./component/wework";
+import Chooseus from "./component/chooseus";
+
 
 
 export default function Home() {
@@ -20,6 +22,7 @@ export default function Home() {
       anchorPlacement: "top-bottom",
     });
   });
+  
   AOS.refresh();
   return (
     <>
@@ -30,7 +33,7 @@ export default function Home() {
       <Ourservices />
       <Casestudy />
       < Wework />
-
+      <Chooseus/>
     </>
   );
 }

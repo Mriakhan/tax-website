@@ -11,7 +11,7 @@ export default function Casestudy() {
             <div className='flex justify-center w-[100%] items-center mt-36'>
                 <div className='flex flex-col  '>
                     <h1 className='text-[18px] text-[#FFC703] font-bold'>Case Study</h1>
-                    <p className='text-[36px] md:text-[48px] text-[#0D0F20] w-[90%] md:w-[50%] font-bold '>See Our Project We Have Done</p>
+                    <p className='text-[36px] md:text-[48px] text-[#0D0F20] w-[90%] md:w-[50%] font-bold 'data-aos="fade-down">See Our Project We Have Done</p>
                     <p className='text-[16px] text-[#6D6D6D] w-[70%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div>
@@ -19,7 +19,7 @@ export default function Casestudy() {
                 </div>
             </div>
             <div className='h-[400px] mt-16 grid grid-cols-3'>
-                <div className=''>
+                <div className=''data-aos="fade-up">
                     <div className='relative'>
                         <Image src={taximage} className='' style={{ width: "", height: "350px", position: "absolute", objectFit: "cover" }} alt='' />
                     </div>
@@ -29,7 +29,7 @@ export default function Casestudy() {
                         <p className='text-[16px] text-[#FFC703] font-bold hover:text-[white] '>view detail<ArrowForwardIosIcon sx={{ width: "18px" }} /> </p>
                     </div>
                 </div>
-                <div className=''>
+                <div className=''data-aos="fade-up">
                     <div className='relative'>
                         <Image src={tax2} className='' style={{ width: "", height: "350px", position: "absolute", objectFit: "cover" }} alt='' />
                     </div>
@@ -39,7 +39,7 @@ export default function Casestudy() {
                         <p className='text-[16px] text-[#FFC703] font-bold hover:text-[white] '>view detail<ArrowForwardIosIcon sx={{ width: "18px" }} /> </p>
                     </div>
                 </div>
-                <div className=''>
+                <div className=''data-aos="fade-up">
                     <div className='relative'>
                         <Image src={tax3} className='' style={{ width: "634px", height: "350px", position: "absolute", objectFit: "cover" }} alt='' />
                     </div>
